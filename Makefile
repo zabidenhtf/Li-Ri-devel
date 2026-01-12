@@ -1,7 +1,7 @@
 #      (_||_/       
 #      (    )       MakeFile pour MakeDat
 #     ( O  0 )      
-#-Ooo°--(_)---°Ooo---------------------------------------
+#-OooÂ°--(_)---Â°Ooo---------------------------------------
 #                   Copyright (C) 2006 By Dominique Roux-Serret @2006
 # .Oooo      Oooo.  roux-serret@ifrance.com
 #-(   )------(   )---------------------------------------
