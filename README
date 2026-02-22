@@ -1,6 +1,6 @@
 Initial source of these data can be found at http://prdownloads.sourceforge.net/ri-li/Ri-li-devel-2.0.1.tar.bz2?download
 
-Images can be generated from the POV files using the command `for f in *.ini; do povray $f; done`
+Images can be generated from the POV files using the command `parallel -j 8 povray ::: *.ini > /dev/null 2>&1` or if you don't have the parallel command line: `for f in *.ini; do povray $f; done`
 
 The original images were generated with the official 3.6.1 version of povray.
 I'm regenerating the images by adding a Version tag in them. They differ a bit but should not be noticeable.
