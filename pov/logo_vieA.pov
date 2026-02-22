@@ -40,9 +40,9 @@ light_source { <80,90,-80> color White*0.8
 	 union { 
 	 	 torus { 3 1.25 translate <0,1.25,0> }
 		 cylinder { <0,0,0> <0,2.5,0>,3 }
-		 texture { Bois_Bleu }
+		 texture { Bois_Noir }
 	 }
-	 cylinder { <0,2.5,0> <0,2.7,0>,2.8 texture { Bois_Jaune } }
+	 cylinder { <0,2.5,0> <0,2.7,0>,2.8 texture { Bois_Vert } }
 	 sphere { <0,0,0>,1.5 scale <1,0.8,1> translate <0,2.7,0> texture { T_Roue } }
 	 rotate <0,0,-90>
 }
@@ -83,7 +83,7 @@ light_source { <80,90,-80> color White*0.8
 		 	sphere { <0,0,0>,4 scale <1,1,0.2> translate <0,3.5,-9> }
 			cylinder { <0,3.5,0> <0,3.5,-18>,3.5 inverse }
 		 } 
-		 texture { Bois_Bleu }
+		 texture { Bois_Noir }
 	}
 	difference {
 		union {
@@ -103,7 +103,7 @@ light_source { <80,90,-80> color White*0.8
 			 cylinder { <2,12,1> <2,12,10>,1 }
 		   }
 		   plane { y,12 }
-		   texture { Bois_Jaune translate <1,12,1> }
+		   texture { Bois_Vert translate <1,12,1> }
 		   scale <1.66,1,1>
 	}
 	sphere { <0,13,6>,1 texture { Bois_Rouge rotate <90,0,0> translate <0,12,-1> } }
